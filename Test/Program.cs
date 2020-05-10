@@ -14,7 +14,7 @@ namespace Test
         {
             double x1 = 0;
             int y=1;
-            Console.WriteLine("Kökü alınacak Sayıyı giriniz:");
+            Console.WriteLine("Number to root:");
             string input = Console.ReadLine();
             if (input != null && input != "") 
             y = int.Parse(input);
